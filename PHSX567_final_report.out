@@ -5,8 +5,20 @@
 \BOOKMARK [2][-]{subsection.3.2}{Artificial Neural Networks}{section.3}% 5
 \BOOKMARK [2][-]{subsection.3.3}{Convolutional Neural Networks}{section.3}% 6
 \BOOKMARK [3][-]{subsubsection.3.3.1}{Convolutional Layer}{subsection.3.3}% 7
-\BOOKMARK [1][-]{section.4}{Implementation}{}% 8
-\BOOKMARK [2][-]{subsection.4.1}{Selecting Hyperparameters}{section.4}% 9
-\BOOKMARK [2][-]{subsection.4.2}{Training Dataset}{section.4}% 10
-\BOOKMARK [2][-]{subsection.4.3}{Hardware}{section.4}% 11
-\BOOKMARK [2][-]{subsection.4.4}{Software}{section.4}% 12
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Max Pooling Layer}{subsection.3.3}% 8
+\BOOKMARK [3][-]{subsubsection.3.3.3}{Inner Product Layer}{subsection.3.3}% 9
+\BOOKMARK [3][-]{subsubsection.3.3.4}{ReLU Layer}{subsection.3.3}% 10
+\BOOKMARK [3][-]{subsubsection.3.3.5}{Loss Layer}{subsection.3.3}% 11
+\BOOKMARK [3][-]{subsubsection.3.3.6}{Forward/Backward Propogation}{subsection.3.3}% 12
+\BOOKMARK [3][-]{subsubsection.3.3.7}{Updating Weights}{subsection.3.3}% 13
+\BOOKMARK [1][-]{section.4}{Software}{}% 14
+\BOOKMARK [2][-]{subsection.4.1}{Caffe}{section.4}% 15
+\BOOKMARK [2][-]{subsection.4.2}{Custom Routines}{section.4}% 16
+\BOOKMARK [1][-]{section.5}{Testing CNNs Using Simulated Data}{}% 17
+\BOOKMARK [2][-]{subsection.5.1}{Introduction}{section.5}% 18
+\BOOKMARK [2][-]{subsection.5.2}{Dataset Preparation}{section.5}% 19
+\BOOKMARK [2][-]{subsection.5.3}{Results}{section.5}% 20
+\BOOKMARK [3][-]{subsubsection.5.3.1}{One Active Pixel}{subsection.5.3}% 21
+\BOOKMARK [3][-]{subsubsection.5.3.2}{Five Active Pixels}{subsection.5.3}% 22
+\BOOKMARK [1][-]{section.6}{Training CNNs Using IRIS Data}{}% 23
+\BOOKMARK [1][-]{section.7}{Conclusion}{}% 24

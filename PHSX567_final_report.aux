@@ -25,6 +25,8 @@
 \@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}{section.1}}
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Layout of the MOSES instrument demonstrating how different wavelengths are overlapped onto each detector \cite  {moses}.\relax }}{1}{figure.caption.1}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Diagram demonstrating how compact objects in the data cube are convolved to form the images at each detector \cite  {moses}.\relax }}{1}{figure.caption.2}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{inversion}{{2}{1}{Diagram demonstrating how compact objects in the data cube are convolved to form the images at each detector \cite {moses}.\relax }{figure.caption.2}{}}
 \newlabel{invert}{{1}{1}{Introduction}{equation.1.1}{}}
 \citation{moses}
 \citation{tom}
@@ -35,24 +37,56 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {I}Machine Learning}{2}{subsection.3.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {II}Artificial Neural Networks}{2}{subsection.3.2}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces An example of a simple neural network.\relax }}{3}{figure.caption.4}}
+\newlabel{ip}{{4}{3}{An example of a simple neural network.\relax }{figure.caption.4}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {III}Convolutional Neural Networks}{3}{subsection.3.3}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {i}Convolutional Layer}{3}{subsubsection.3.3.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {A}Convolutional Layer}{3}{subsubsection.3.3.1}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces The red box represents the input neurons, with the receptive field connected to the next five convolutional layers.\relax }}{3}{figure.caption.5}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Example of orthogonal filters in convolutional layer. NOTE: This is not from out network.\relax }}{3}{figure.caption.6}}
-\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{ortho}{{6}{3}{Example of orthogonal filters in convolutional layer. NOTE: This is not from out network.\relax }{figure.caption.6}{}}
-\citation{iris}
-\citation{iris}
-\citation{nvidia}
-\citation{nvidia}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Example of orthogonal filters in convolutional layer. NOTE: This is not from our network.\relax }}{3}{figure.caption.6}}
+\newlabel{ortho}{{6}{3}{Example of orthogonal filters in convolutional layer. NOTE: This is not from our network.\relax }{figure.caption.6}{}}
 \citation{caffe}
-\@writefile{toc}{\contentsline {section}{\numberline {IV}Implementation}{4}{section.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {I}Selecting Hyperparameters}{4}{subsection.4.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {II}Training Dataset}{4}{subsection.4.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces An example of the data collected by IRIS in the Si IV line. The horizontal dimension is spatial, while the vertical dimension is spectral \cite  {iris}.\relax }}{4}{figure.caption.7}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {III}Hardware}{4}{subsection.4.3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Comparison of GFLOP/s for CPU and GPU \cite  {nvidia}.\relax }}{4}{figure.caption.8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {IV}Software}{4}{subsection.4.4}}
+\citation{caffe}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {B}Max Pooling Layer}{4}{subsubsection.3.3.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Max pooling with a 2x2 kernel and a stride of 1.\relax }}{4}{figure.caption.7}}
+\newlabel{pooling}{{7}{4}{Max pooling with a 2x2 kernel and a stride of 1.\relax }{figure.caption.7}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {C}Inner Product Layer}{4}{subsubsection.3.3.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {D}ReLU Layer}{4}{subsubsection.3.3.4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {E}Loss Layer}{4}{subsubsection.3.3.5}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {F}Forward/Backward Propogation}{4}{subsubsection.3.3.6}}
+\citation{caffe}
+\citation{caffe}
+\citation{caffe}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces A basic neural network to demonstrate forward propogation. \cite  {caffe}\relax }}{5}{figure.caption.8}}
+\newlabel{forward}{{8}{5}{A basic neural network to demonstrate forward propogation. \cite {caffe}\relax }{figure.caption.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces The same network as Figure \ref  {forward} after applying backwards propogation.\cite  {caffe}\relax }}{5}{figure.caption.9}}
+\newlabel{backward}{{9}{5}{The same network as Figure \ref {forward} after applying backwards propogation.\cite {caffe}\relax }{figure.caption.9}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {G}Updating Weights}{5}{subsubsection.3.3.7}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Software}{6}{section.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {I}Caffe}{6}{subsection.4.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {II}Custom Routines}{6}{subsection.4.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {V}Testing CNNs Using Simulated Data}{6}{section.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {I}Introduction}{6}{subsection.5.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {II}Dataset Preparation}{6}{subsection.5.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces An example of a 4x4 pixel truth image. For this image and all following images, the vertical axis is $\lambda $ and the horizontal axis is $x$.\relax }}{6}{figure.caption.10}}
+\newlabel{mIn}{{10}{6}{An example of a 4x4 pixel truth image. For this image and all following images, the vertical axis is $\lambda $ and the horizontal axis is $x$.\relax }{figure.caption.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces An example of a 4 pixel by 4 pixel input image.\relax }}{6}{figure.caption.12}}
+\newlabel{mOut}{{12}{6}{An example of a 4 pixel by 4 pixel input image.\relax }{figure.caption.12}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Simulated results of the MOSES instrument for the simple case described in Figure \ref  {mIn}.\relax }}{7}{figure.caption.11}}
+\newlabel{m1-1}{{11}{7}{Simulated results of the MOSES instrument for the simple case described in Figure \ref {mIn}.\relax }{figure.caption.11}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {III}Results}{7}{subsection.5.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {A}One Active Pixel}{7}{subsubsection.5.3.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {B}Five Active Pixels}{7}{subsubsection.5.3.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Training CNNs Using IRIS Data}{7}{section.6}}
+\@writefile{toc}{\contentsline {section}{\numberline {VII}Conclusion}{7}{section.7}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Parameters describing the CNN used to train the one active pixel case\relax }}{8}{table.caption.13}}
+\newlabel{4x4tab}{{1}{8}{Parameters describing the CNN used to train the one active pixel case\relax }{table.caption.13}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Characteristic output for the 4x4 case. MINND performs perfectly each time.\relax }}{8}{table.caption.15}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Output of the MINND neural network for four randomly selected input images. Notice how not all output images are solutions to the inversion problem.\relax }}{8}{table.caption.16}}
+\newlabel{8x8im}{{3}{8}{Output of the MINND neural network for four randomly selected input images. Notice how not all output images are solutions to the inversion problem.\relax }{table.caption.16}{}}
+\newlabel{4x4net}{{13a}{9}{Topography of the our CNN for the one active pixel case\relax }{figure.caption.14}{}}
+\newlabel{sub@4x4net}{{a}{9}{Topography of the our CNN for the one active pixel case\relax }{figure.caption.14}{}}
+\newlabel{8x8net}{{13b}{9}{Topography of the our CNN for the five active pixels case\relax }{figure.caption.14}{}}
+\newlabel{sub@8x8net}{{b}{9}{Topography of the our CNN for the five active pixels case\relax }{figure.caption.14}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Topography of the two neural networks used in the test.\relax }}{9}{figure.caption.14}}
 \bibstyle{unsrt}
 \bibdata{sources}
 \bibcite{moses}{1}
