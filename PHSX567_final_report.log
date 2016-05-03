@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.28)  2 APR 2016 04:18
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.11)  3 MAY 2016 01:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -449,21 +449,21 @@ File: block.tss 2011/12/15
 (./PHSX567_final_report.aux)
 \openout1 = `PHSX567_final_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Try loading font information for T1+pplx on input line 79.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Try loading font information for T1+pplx on input line 84.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pplx.fd
 File: t1pplx.fd 2004/09/06 font definitions for T1/pplx.
@@ -496,7 +496,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 79.
+LaTeX Info: Redefining \microtypecontext on input line 84.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -550,7 +550,7 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box60
-Package hyperref Info: Link coloring OFF on input line 79.
+Package hyperref Info: Link coloring OFF on input line 84.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -559,41 +559,41 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count141
 )
-LaTeX Info: Redefining \ref on input line 79.
-LaTeX Info: Redefining \pageref on input line 79.
-LaTeX Info: Redefining \nameref on input line 79.
+LaTeX Info: Redefining \ref on input line 84.
+LaTeX Info: Redefining \pageref on input line 84.
+LaTeX Info: Redefining \nameref on input line 84.
 
 (./PHSX567_final_report.out) (./PHSX567_final_report.out)
 \@outlinefile=\write3
 \openout3 = `PHSX567_final_report.out'.
 
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <24> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 82.
-LaTeX Font Info:    Try loading font information for OT1+pplx on input line 82.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 87.
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 87.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 82.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 87.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 82.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 87.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 82.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 87.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 82.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 87.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
@@ -610,273 +610,273 @@ Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplx/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
 Package epstopdf Info: Source file: <images/instrument.eps>
-(epstopdf)                    date: 2016-04-01 20:58:03
+(epstopdf)                    date: 2016-05-02 20:08:01
 (epstopdf)                    size: 17165 bytes
 (epstopdf)             Output file: <images/instrument-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-01 20:58:03
+(epstopdf)                    date: 2016-05-02 20:08:01
 (epstopdf)                    size: 4840 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/instrument-eps-conv
 erted-to.pdf images/instrument.eps>
-(epstopdf)             \includegraphics on input line 98.
+(epstopdf)             \includegraphics on input line 103.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/instrument-eps-converted-to.pdf, id=101, 746.79pt x 444.66125pt>
+<images/instrument-eps-converted-to.pdf, id=97, 746.79pt x 444.66125pt>
 File: images/instrument-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/instrument-eps-converted-to.pdf>
 Package pdftex.def Info: images/instrument-eps-converted-to.pdf used on input l
-ine 98.
+ine 103.
 (pdftex.def)             Requested size: 205.0023pt x 122.0617pt.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <9> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 99.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 104.
 
-<images/inversion.png, id=104, 1264.725pt x 783.92876pt>
+<images/inversion.png, id=100, 1264.725pt x 783.92876pt>
 File: images/inversion.png Graphic file (type png)
 
 <use images/inversion.png>
-Package pdftex.def Info: images/inversion.png used on input line 103.
+Package pdftex.def Info: images/inversion.png used on input line 108.
 (pdftex.def)             Requested size: 205.0023pt x 127.05795pt.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  <./images/instrument-eps-converted-to.pdf> <./images/inversion.png>]
-<images/plaid2.png, id=137, 907.39pt x 875.27pt>
+<images/plaid2.png, id=133, 907.39pt x 875.27pt>
 File: images/plaid2.png Graphic file (type png)
  <use images/plaid2.png>
-Package pdftex.def Info: images/plaid2.png used on input line 120.
+Package pdftex.def Info: images/plaid2.png used on input line 125.
 (pdftex.def)             Requested size: 205.0023pt x 197.74194pt.
 
-[2 <./images/plaid2.png>] <images/neural.png, id=148, 803.0pt x 965.6075pt>
+[2 <./images/plaid2.png>] <images/neural.png, id=144, 803.0pt x 965.6075pt>
 File: images/neural.png Graphic file (type png)
 
 <use images/neural.png>
-Package pdftex.def Info: images/neural.png used on input line 135.
+Package pdftex.def Info: images/neural.png used on input line 140.
 (pdftex.def)             Requested size: 102.50114pt x 123.24962pt.
 
-<images/Conv_layer.png, id=150, 636.3775pt x 427.5975pt>
+<images/Conv_layer.png, id=146, 636.3775pt x 427.5975pt>
 File: images/Conv_layer.png Graphic file (type png)
 
 <use images/Conv_layer.png>
-Package pdftex.def Info: images/Conv_layer.png used on input line 146.
+Package pdftex.def Info: images/Conv_layer.png used on input line 151.
 (pdftex.def)             Requested size: 102.50114pt x 68.86719pt.
 
-<images/ortho.jpg, id=152, 115.93312pt x 110.91437pt>
+<images/ortho.jpg, id=147, 115.93312pt x 110.91437pt>
 File: images/ortho.jpg Graphic file (type jpg)
  <use images/ortho.jpg>
-Package pdftex.def Info: images/ortho.jpg used on input line 152.
+Package pdftex.def Info: images/ortho.jpg used on input line 157.
 (pdftex.def)             Requested size: 102.50114pt x 98.06526pt.
 
-<images/Max_pooling.png, id=154, 572.1375pt x 331.2375pt>
+<images/Max_pooling.png, id=150, 572.1375pt x 331.2375pt>
 File: images/Max_pooling.png Graphic file (type png)
 
 <use images/Max_pooling.png>
-Package pdftex.def Info: images/Max_pooling.png used on input line 161.
+Package pdftex.def Info: images/Max_pooling.png used on input line 166.
 (pdftex.def)             Requested size: 205.0023pt x 118.68437pt.
  [3 <./images/neural.png> <./images/Conv_layer.png> <./images/ortho.jpg>] <imag
-es/forward.jpg, id=166, 382.42876pt x 422.57875pt>
+es/forward.jpg, id=162, 382.42876pt x 422.57875pt>
 File: images/forward.jpg Graphic file (type jpg)
 
 <use images/forward.jpg>
-Package pdftex.def Info: images/forward.jpg used on input line 183.
+Package pdftex.def Info: images/forward.jpg used on input line 188.
 (pdftex.def)             Requested size: 123.00262pt x 135.9179pt.
  [4 <./images/Max_pooling.png>]
-<images/backward.jpg, id=182, 420.57124pt x 499.8675pt>
+<images/backward.jpg, id=176, 420.57124pt x 499.8675pt>
 File: images/backward.jpg Graphic file (type jpg)
 
 <use images/backward.jpg>
-Package pdftex.def Info: images/backward.jpg used on input line 191.
+Package pdftex.def Info: images/backward.jpg used on input line 196.
 (pdftex.def)             Requested size: 123.00262pt x 146.19348pt.
  [5 <./images/forward.jpg> <./images/backward.jpg>]
-<images/mIn.png, id=197, 722.7pt x 362.10281pt>
+<images/mIn.png, id=193, 722.7pt x 362.10281pt>
 File: images/mIn.png Graphic file (type png)
  <use images/mIn.png>
-Package pdftex.def Info: images/mIn.png used on input line 228.
+Package pdftex.def Info: images/mIn.png used on input line 233.
 (pdftex.def)             Requested size: 153.75172pt x 77.03284pt.
 
-<images/m-1.png, id=200, 640.3925pt x 462.72874pt>
+<images/m-1.png, id=196, 640.3925pt x 462.72874pt>
 File: images/m-1.png Graphic file (type png)
  <use images/m-1.png>
-Package pdftex.def Info: images/m-1.png used on input line 237.
+Package pdftex.def Info: images/m-1.png used on input line 242.
 (pdftex.def)             Requested size: 129.00269pt x 93.20781pt.
 
-<images/m0.png, id=201, 641.39626pt x 462.72874pt>
+<images/m0.png, id=197, 641.39626pt x 462.72874pt>
 File: images/m0.png Graphic file (type png)
  <use images/m0.png>
-Package pdftex.def Info: images/m0.png used on input line 241.
+Package pdftex.def Info: images/m0.png used on input line 246.
 (pdftex.def)             Requested size: 129.00269pt x 93.06659pt.
 
-<images/m1.png, id=202, 641.39626pt x 467.7475pt>
+<images/m1.png, id=198, 641.39626pt x 467.7475pt>
 File: images/m1.png Graphic file (type png)
  <use images/m1.png>
-Package pdftex.def Info: images/m1.png used on input line 245.
+Package pdftex.def Info: images/m1.png used on input line 250.
 (pdftex.def)             Requested size: 129.00269pt x 94.07599pt.
 
-<images/mOut.png, id=205, 722.7pt x 362.10281pt>
+<images/mOut.png, id=201, 722.7pt x 362.10281pt>
 File: images/mOut.png Graphic file (type png)
  <use images/mOut.png>
-Package pdftex.def Info: images/mOut.png used on input line 255.
+Package pdftex.def Info: images/mOut.png used on input line 260.
 (pdftex.def)             Requested size: 153.75172pt x 77.03284pt.
  [6 <./images/mIn.png> <./images/mOut.png>]
-<images/4x4/minnd_dia_4x4.png, id=219, 450.68375pt x 1137.24875pt>
+<images/4x4/minnd_dia_4x4.png, id=215, 450.68375pt x 1137.24875pt>
 File: images/4x4/minnd_dia_4x4.png Graphic file (type png)
 
 <use images/4x4/minnd_dia_4x4.png>
-Package pdftex.def Info: images/4x4/minnd_dia_4x4.png used on input line 292.
+Package pdftex.def Info: images/4x4/minnd_dia_4x4.png used on input line 297.
 (pdftex.def)             Requested size: 162.53993pt x 410.15543pt.
 
-<images/8x8/minnd_dia.png, id=220, 450.68375pt x 1557.82pt>
+<images/8x8/minnd_dia.png, id=216, 450.68375pt x 1557.82pt>
 File: images/8x8/minnd_dia.png Graphic file (type png)
 
 <use images/8x8/minnd_dia.png>
-Package pdftex.def Info: images/8x8/minnd_dia.png used on input line 297.
+Package pdftex.def Info: images/8x8/minnd_dia.png used on input line 302.
 (pdftex.def)             Requested size: 162.53993pt x 561.83691pt.
 
 
-LaTeX Warning: Float too large for page by 3.96318pt on input line 302.
+LaTeX Warning: Float too large for page by 3.96318pt on input line 307.
 
-<images/4x4/1/in.png, id=221, 722.7pt x 362.10281pt>
+<images/4x4/1/in.png, id=217, 722.7pt x 362.10281pt>
 File: images/4x4/1/in.png Graphic file (type png)
  <use images/4x4/1/in.png>
-Package pdftex.def Info: images/4x4/1/in.png used on input line 309.
+Package pdftex.def Info: images/4x4/1/in.png used on input line 314.
 (pdftex.def)             Requested size: 85.9996pt x 43.08578pt.
 
-<images/4x4/1/out.png, id=222, 722.7pt x 362.10281pt>
+<images/4x4/1/out.png, id=218, 722.7pt x 362.10281pt>
 File: images/4x4/1/out.png Graphic file (type png)
 
 <use images/4x4/1/out.png>
-Package pdftex.def Info: images/4x4/1/out.png used on input line 310.
+Package pdftex.def Info: images/4x4/1/out.png used on input line 315.
 (pdftex.def)             Requested size: 85.9996pt x 43.08578pt.
 
-<images/4x4/1/truth.png, id=223, 722.7pt x 362.10281pt>
+<images/4x4/1/truth.png, id=219, 722.7pt x 362.10281pt>
 File: images/4x4/1/truth.png Graphic file (type png)
 
 <use images/4x4/1/truth.png>
-Package pdftex.def Info: images/4x4/1/truth.png used on input line 311.
+Package pdftex.def Info: images/4x4/1/truth.png used on input line 316.
 (pdftex.def)             Requested size: 85.9996pt x 43.08578pt.
 
-<images/4x4/1/dif.png, id=224, 722.7pt x 362.10281pt>
+<images/4x4/1/dif.png, id=220, 722.7pt x 362.10281pt>
 File: images/4x4/1/dif.png Graphic file (type png)
 
 <use images/4x4/1/dif.png>
-Package pdftex.def Info: images/4x4/1/dif.png used on input line 312.
+Package pdftex.def Info: images/4x4/1/dif.png used on input line 317.
 (pdftex.def)             Requested size: 85.9996pt x 43.08578pt.
 
-Overfull \hbox (11.81377pt too wide) in paragraph at lines 305--314
+Overfull \hbox (11.81377pt too wide) in paragraph at lines 310--319
 [][] 
  []
 
-<images/8x8/1/in.png, id=225, 150.5625pt x 94.85437pt>
+<images/8x8/1/in.png, id=221, 150.5625pt x 94.85437pt>
 File: images/8x8/1/in.png Graphic file (type png)
 
 <use images/8x8/1/in.png>
-Package pdftex.def Info: images/8x8/1/in.png used on input line 322.
+Package pdftex.def Info: images/8x8/1/in.png used on input line 327.
 (pdftex.def)             Requested size: 85.9996pt x 54.18188pt.
 
-<images/8x8/1/out.png, id=226, 150.5625pt x 94.85437pt>
+<images/8x8/1/out.png, id=222, 150.5625pt x 94.85437pt>
 File: images/8x8/1/out.png Graphic file (type png)
 
 <use images/8x8/1/out.png>
-Package pdftex.def Info: images/8x8/1/out.png used on input line 323.
+Package pdftex.def Info: images/8x8/1/out.png used on input line 328.
 (pdftex.def)             Requested size: 85.9996pt x 54.18188pt.
 
-<images/8x8/1/truth.png, id=227, 150.5625pt x 94.85437pt>
+<images/8x8/1/truth.png, id=223, 150.5625pt x 94.85437pt>
 File: images/8x8/1/truth.png Graphic file (type png)
 
 <use images/8x8/1/truth.png>
-Package pdftex.def Info: images/8x8/1/truth.png used on input line 324.
+Package pdftex.def Info: images/8x8/1/truth.png used on input line 329.
 (pdftex.def)             Requested size: 85.9996pt x 54.18188pt.
 
-<images/8x8/1/dif.png, id=228, 150.5625pt x 94.85437pt>
+<images/8x8/1/dif.png, id=224, 150.5625pt x 94.85437pt>
 File: images/8x8/1/dif.png Graphic file (type png)
 
 <use images/8x8/1/dif.png>
-Package pdftex.def Info: images/8x8/1/dif.png used on input line 325.
+Package pdftex.def Info: images/8x8/1/dif.png used on input line 330.
 (pdftex.def)             Requested size: 85.9996pt x 54.18188pt.
 
-<images/8x8/2/in.png, id=229, 150.5625pt x 94.85437pt>
+<images/8x8/2/in.png, id=225, 150.5625pt x 94.85437pt>
 File: images/8x8/2/in.png Graphic file (type png)
 
 <use images/8x8/2/in.png>
-Package pdftex.def Info: images/8x8/2/in.png used on input line 327.
+Package pdftex.def Info: images/8x8/2/in.png used on input line 332.
 (pdftex.def)             Requested size: 85.9996pt x 54.18188pt.
 
-<images/8x8/2/out.png, id=230, 150.5625pt x 94.85437pt>
+<images/8x8/2/out.png, id=226, 150.5625pt x 94.85437pt>
 File: images/8x8/2/out.png Graphic file (type png)
 
 <use images/8x8/2/out.png>
-Package pdftex.def Info: images/8x8/2/out.png used on input line 328.
+Package pdftex.def Info: images/8x8/2/out.png used on input line 333.
 (pdftex.def)             Requested size: 85.9996pt x 54.18188pt.
 
-<images/8x8/2/truth.png, id=231, 150.5625pt x 94.85437pt>
+<images/8x8/2/truth.png, id=227, 150.5625pt x 94.85437pt>
 File: images/8x8/2/truth.png Graphic file (type png)
 
 <use images/8x8/2/truth.png>
-Package pdftex.def Info: images/8x8/2/truth.png used on input line 329.
+Package pdftex.def Info: images/8x8/2/truth.png used on input line 334.
 (pdftex.def)             Requested size: 85.9996pt x 54.18188pt.
 
-<images/8x8/2/dif.png, id=232, 150.5625pt x 94.85437pt>
+<images/8x8/2/dif.png, id=228, 150.5625pt x 94.85437pt>
 File: images/8x8/2/dif.png Graphic file (type png)
 
 <use images/8x8/2/dif.png>
-Package pdftex.def Info: images/8x8/2/dif.png used on input line 330.
+Package pdftex.def Info: images/8x8/2/dif.png used on input line 335.
 (pdftex.def)             Requested size: 85.9996pt x 54.18188pt.
 
-<images/8x8/3/in.png, id=233, 150.5625pt x 94.85437pt>
+<images/8x8/3/in.png, id=229, 150.5625pt x 94.85437pt>
 File: images/8x8/3/in.png Graphic file (type png)
 
 <use images/8x8/3/in.png>
-Package pdftex.def Info: images/8x8/3/in.png used on input line 332.
+Package pdftex.def Info: images/8x8/3/in.png used on input line 337.
 (pdftex.def)             Requested size: 85.9996pt x 54.18188pt.
 
-<images/8x8/3/out.png, id=234, 150.5625pt x 94.85437pt>
+<images/8x8/3/out.png, id=230, 150.5625pt x 94.85437pt>
 File: images/8x8/3/out.png Graphic file (type png)
 
 <use images/8x8/3/out.png>
-Package pdftex.def Info: images/8x8/3/out.png used on input line 333.
+Package pdftex.def Info: images/8x8/3/out.png used on input line 338.
 (pdftex.def)             Requested size: 85.9996pt x 54.18188pt.
 
-<images/8x8/3/truth.png, id=235, 150.5625pt x 94.85437pt>
+<images/8x8/3/truth.png, id=231, 150.5625pt x 94.85437pt>
 File: images/8x8/3/truth.png Graphic file (type png)
 
 <use images/8x8/3/truth.png>
-Package pdftex.def Info: images/8x8/3/truth.png used on input line 334.
+Package pdftex.def Info: images/8x8/3/truth.png used on input line 339.
 (pdftex.def)             Requested size: 85.9996pt x 54.18188pt.
 
-<images/8x8/3/dif.png, id=236, 150.5625pt x 94.85437pt>
+<images/8x8/3/dif.png, id=232, 150.5625pt x 94.85437pt>
 File: images/8x8/3/dif.png Graphic file (type png)
 
 <use images/8x8/3/dif.png>
-Package pdftex.def Info: images/8x8/3/dif.png used on input line 335.
+Package pdftex.def Info: images/8x8/3/dif.png used on input line 340.
 (pdftex.def)             Requested size: 85.9996pt x 54.18188pt.
 
-<images/8x8/4/in.png, id=237, 150.5625pt x 94.85437pt>
+<images/8x8/4/in.png, id=233, 150.5625pt x 94.85437pt>
 File: images/8x8/4/in.png Graphic file (type png)
 
 <use images/8x8/4/in.png>
-Package pdftex.def Info: images/8x8/4/in.png used on input line 337.
+Package pdftex.def Info: images/8x8/4/in.png used on input line 342.
 (pdftex.def)             Requested size: 85.9996pt x 54.18188pt.
 
-<images/8x8/4/out.png, id=238, 150.5625pt x 94.85437pt>
+<images/8x8/4/out.png, id=234, 150.5625pt x 94.85437pt>
 File: images/8x8/4/out.png Graphic file (type png)
 
 <use images/8x8/4/out.png>
-Package pdftex.def Info: images/8x8/4/out.png used on input line 338.
+Package pdftex.def Info: images/8x8/4/out.png used on input line 343.
 (pdftex.def)             Requested size: 85.9996pt x 54.18188pt.
 
-<images/8x8/4/truth.png, id=239, 150.5625pt x 94.85437pt>
+<images/8x8/4/truth.png, id=235, 150.5625pt x 94.85437pt>
 File: images/8x8/4/truth.png Graphic file (type png)
 
 <use images/8x8/4/truth.png>
-Package pdftex.def Info: images/8x8/4/truth.png used on input line 339.
+Package pdftex.def Info: images/8x8/4/truth.png used on input line 344.
 (pdftex.def)             Requested size: 85.9996pt x 54.18188pt.
 
-<images/8x8/4/dif.png, id=240, 150.5625pt x 94.85437pt>
+<images/8x8/4/dif.png, id=236, 150.5625pt x 94.85437pt>
 File: images/8x8/4/dif.png Graphic file (type png)
 
 <use images/8x8/4/dif.png>
-Package pdftex.def Info: images/8x8/4/dif.png used on input line 340.
+Package pdftex.def Info: images/8x8/4/dif.png used on input line 345.
 (pdftex.def)             Requested size: 85.9996pt x 54.18188pt.
 
-Overfull \hbox (11.81377pt too wide) in paragraph at lines 318--342
+Overfull \hbox (11.81377pt too wide) in paragraph at lines 323--347
 [][] 
  []
 
@@ -889,7 +889,7 @@ ges/8x8/3/out.png> <./images/8x8/3/truth.png> <./images/8x8/3/dif.png> <./image
 s/8x8/4/in.png> <./images/8x8/4/out.png> <./images/8x8/4/truth.png> <./images/8
 x8/4/dif.png>] [9 <./images/4x4/minnd_dia_4x4.png> <./images/8x8/minnd_dia.png>
 ] (./PHSX567_final_report.bbl
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 9.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
@@ -898,46 +898,23 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-Underfull \hbox (badness 1502) in paragraph at lines 28--35
-[]\T1/pplx/m/n/10 (+20) Alex Krizhevsky, Ilya Sutskever, and Ge-of-frey E. Hin-
-ton.  Im-a-genet clas-si-fi-ca-tion
- []
-
-
-Underfull \hbox (badness 1127) in paragraph at lines 28--35
-\T1/pplx/m/n/10 (+20) with deep con-vo-lu-tional neu-ral net-works.  In F. Pere
-ira, C. J. C. Burges, L. Bot-
- []
-
-
-Underfull \hbox (badness 5741) in paragraph at lines 37--41
-\T1/pplx/m/n/10 (+20) 2016.  []$\T1/cmtt/m/n/10 http : / / www . lmsal . com / 
-solarsoft / /irisa / data / level2 / 2016 / 01 / 29 / 20160129 _
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--41
-\T1/cmtt/m/n/10 054924 _ 3664251603 / www / raster / iris _ rast _ CII1336 _ OI
-1356 _ SiIV1403 _ MgIIk2796SJI _
- []
-
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 359.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 364.
  [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 359.
- (./PHSX567_final_report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 359.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 359.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 364.
+
+(./PHSX567_final_report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 364.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 364.
 Package rerunfilecheck Info: File `PHSX567_final_report.out' has not changed.
-(rerunfilecheck)             Checksum: D1CEB563C8E3A1C4F86EDDB3F19148C9;1592.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 359.
+(rerunfilecheck)             Checksum: E2C2BB7767C1B06BC32CD19F68409E02;1527.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 364.
  ) 
 Here is how much of TeX's memory you used:
- 10635 strings out of 493304
- 161300 string characters out of 6139871
- 389950 words of memory out of 5000000
- 13495 multiletter control sequences out of 15000+600000
+ 10627 strings out of 493304
+ 161219 string characters out of 6139871
+ 381844 words of memory out of 5000000
+ 13491 multiletter control sequences out of 15000+600000
  78755 words of font info for 336 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,12n,43p,1538b,702s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -952,10 +929,10 @@ e/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatin
 o/uplri8a.pfb>
-Output written on PHSX567_final_report.pdf (10 pages, 865391 bytes).
+Output written on PHSX567_final_report.pdf (10 pages, 861259 bytes).
 PDF statistics:
- 329 PDF objects out of 1000 (max. 8388607)
- 255 compressed objects within 3 object streams
- 66 named destinations out of 1000 (max. 500000)
- 61813 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 318 PDF objects out of 1000 (max. 8388607)
+ 244 compressed objects within 3 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 61805 words of extra memory for PDF output out of 61914 (max. 10000000)
 

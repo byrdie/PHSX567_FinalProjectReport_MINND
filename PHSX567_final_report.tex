@@ -20,6 +20,11 @@
 
 \documentclass[twoside]{article}
 
+%\documentclass{aastex}  % version 5.0 or prior
+%\usepackage{natbib}
+
+
+
 \usepackage{graphicx}
 \usepackage{lipsum} % Package to generate dummy text throughout this template
 
@@ -55,7 +60,7 @@
 \pagestyle{fancy} % All pages have headers and footers
 \fancyhead{} % Blank out the default header
 \fancyfoot{} % Blank out the default footer
-\fancyhead[C]{PHSX567 Final Project Report First Draft $\bullet$ \today } % Custom header text
+\fancyhead[C]{PHSX567 Final Project Report $\bullet$ \today } % Custom header text
 \fancyfoot[RO,LE]{\thepage} % Custom footer text
 
 
@@ -69,7 +74,7 @@
 \large
 \textsc{Roy Smart}\\[2mm] % Your name
 \normalsize Montana State University \\ % Your institution
-\normalsize \href{mailto:roytsmart@gmail.com}{roytsmart@gmail.com} % Your email address
+\normalsize \href{mailto:roy.smart@montana.edu}{roytsmart@gmail.com} % Your email address
 \vspace{-5mm}
 }
 \date{}
@@ -93,7 +98,7 @@
 \begin{multicols}{2} % Two-column layout throughout the main article text
 
 \section{Introduction}
-\lettrine{T}{he} \textit{Multi-Order Solar EUV Spectrograph} (MOSES) is a unique instrument developed by Charles Kankelborg's research group at Montana State University that captures solar images in three diffraction orders: $m=0,+1,$ and $-1$. Unlike most spectrographs, MOSES is not equipped with a slit to restrict the field of view on the dispersion axis. The advantage of this configuration is that spectral and spatial information is simultaneously viewed by the instrument, allowing interesting solar features to be more easily identified. However this lack of spatial restriction by a slit means that spectral and spatial information are convolved together to form the images captured by MOSES. These images are known as \textit{overlappograms}. \par
+\lettrine{T}{he} \textit{Multi-Order Solar EUV Spectrograph} (MOSES) is a unique instrument developed by Charles Kankelborg's research group at Montana State University that captures solar images in three diffraction orders: $m=0,+1,$ and $-1$. Unlike most spectrographs, MOSES is not equipped with a slit to restrict the field of view on the dispersion axis. The advantage of this configuration is that the instrument simultaneously views spatial-spectral information, allowing interesting solar features to be more easily identified. However this lack of spatial restriction by a slit means that spectral and spatial information are convolved together to form the images captured by MOSES. These images are known as \textit{overlappograms}. \par
 \begin{figure}[H]
 	\includegraphics[width=\linewidth]{images/instrument.eps}
 	\caption{Layout of the MOSES instrument demonstrating how different wavelengths are overlapped onto each detector \cite{moses}.}
@@ -114,7 +119,7 @@ Where $I(x',y')$ is the intensity measured by the instrument, $v(x',y',\lambda)$
 \section{Motivation}
 
 Many researchers throughout the history of the MOSES research project have developed computational tools to solve the inversion problem. These methods include Smoothed Multiplicative Algebraic Reconstruction Technique (SMART)\cite{smart}, Fourier backprojection and pixon inversion \cite{inversion} and are discussed in detail in the literature. 
-\par The above methods have proved successful in revealing the interior structure of the transition region \cite{moses}. However there is still room for progress to be made towards full inversions of the entire MOSES dataset. These algorithms have a tendency to produce what is known as \textit{plaid}. This is a phenomenon where bright objects on the spectral cube tend to be smeared across the direction of the spectral projections, producing decidedly unphysical inversions.
+\par The above methods have proved successful in revealing the interior structure of the transition region \cite{moses}. However there is still room for progress toward full inversions of the entire MOSES dataset. These algorithms have a tendency to produce what is known as \textit{plaid}. This is a phenomenon where bright objects on the spectral cube tend to be smeared across the direction of the spectral projections, producing decidedly unphysical inversions.
 
 \begin{figure}[H]
 	\includegraphics[width=\linewidth]{images/plaid2}
@@ -125,7 +130,7 @@ Developing an inversion method that is resistant to plaid would be very benefici
 
 \section{Proposed Inversion Method}
 \subsection{Machine Learning}
-Thus far, all of the attempts to invert the MOSES data have relied on traditional, human-designed algorithms to carry out the computation. However, in the past few years, great strides have been made in machine learning, where a computer program is trained to solve a particular problem by providing examples of the problem along with each corresponding solution. Feedback is then provided to the network so that it may utilize minimization techniques to converge on a solution. \par We propose that a method based off of machine learning might allow some progress to be made towards the goal of plaid-resistant MOSES inversions. This is made possible by the fact that the learning algorithm could be penalized for producing plaid solutions to the inversion problem and rewarded for producing physical solutions.  \par While machine learning sounds like a fantastic approach to problem solving, there is still a great deal of challenges to contend with. First, the structure of the learning algorithm is very important in determining its problem-solving ability, and unlike traditional algorithms, the right structure can often only be found by trial and error. Furthermore, the learning process takes a large number of examples to converge on the solution. Solving these problems will be discussed in the following pages.
+Thus far, all of the attempts to invert the MOSES data have relied on traditional, human-designed algorithms to carry out the computation. However, in the past few years, great strides have been made in machine learning, where a computer program is trained to solve a particular problem by providing examples of the problem along with each corresponding solution. Feedback is then provided to the network so that it may utilize minimization techniques to converge on a solution. \par We propose that a method based off of machine learning might allow some progress to be made toward the goal of plaid-resistant MOSES inversions. This is made possible by the fact that the learning algorithm could be penalized for producing plaid solutions to the inversion problem and rewarded for producing physical solutions.  \par While machine learning sounds like a fantastic approach to problem solving, there is still a great deal of challenges to with which to contend. First, the structure of the learning algorithm is very important in determining its problem-solving ability and, unlike traditional algorithms, the right structure can often only be found by trial and error. Furthermore, the learning process takes a large number of examples to converge on the solution. Solving these problems will be discussed in the following pages.
 
 \subsection{Artificial Neural Networks}
 
@@ -146,17 +151,17 @@ Vanilla ANNs usually connect each neuron in one layer to every other neuron in t
 	\includegraphics[width=0.5\linewidth]{images/Conv_layer}
 	\caption{The red box represents the input neurons, with the receptive field connected to the next five convolutional layers.}
 \end{figure}
-The convolutional layer can be seen as a series of orthogonal filters, with each filter designed to identify a particular feature in an input image. An example of these orthogonal filters can be seen in Figure \ref{ortho}.
+
 \begin{figure}[H]    
   \centering
     \includegraphics[width=0.5\linewidth]{images/ortho}
     \caption{Example of orthogonal filters in convolutional layer. NOTE: This is not from our network.}
     \label{ortho}
 \end{figure}
-Each filter size corresponds to the size of the receptive fields. The receptive fields overlap, so each filter is applied to every pixel in the input image. Weights are shared between each neuron in the filter so training time can be greatly reduced.
 
+The convolutional layer can be seen as a series of orthogonal filters, with each filter designed to identify a particular feature in an input image. An example of these orthogonal filters can be seen in Figure \ref{ortho}.Each filter size corresponds to the size of the receptive fields. The receptive fields overlap, so each filter is applied to every pixel in the input image. Weights are shared between each neuron in the filter so training time can be greatly reduced.
 \subsubsection{Max Pooling Layer}
-After each convolutional layer, the information is fed into a max pooling layer. This layer has the effect of increasing the non-linearity of the network, while also decreasing the amount of neurons to control overfitting. Max pooling layers divide up the output of the convolutional layer into zones, and then selects the maximum value within each zone. This can be visualized using Figure \ref{pooling}.
+After each convolutional layer, the information is fed into a max pooling layer. This layer has the effect of increasing the non-linearity of the network, while also decreasing the amount of neurons to control overfitting. Max pooling layers divide up the output of the convolutional layer into zones, then selects the maximum value within each zone. This can be visualized using Figure \ref{pooling}.
 \begin{figure}[H]
 	\includegraphics[width=\linewidth]{images/Max_pooling}
 	\caption{Max pooling with a 2x2 kernel and a stride of 1.}
@@ -175,7 +180,7 @@ The loss layer drives the training of the network. The output of the last inner 
 \begin{equation}
 r(\mathbf{p},\mathbf{q}) = \frac{1}{2N} \sqrt{\sum_{i=0}^{N}(q_i - p_i)^2}.
 \end{equation}
-This quantity is then used in the backpropogation phase of the training (explained below) to inform the network how it should adjust the weights.
+where $N$ is the number of output pixels, $p$ is the truth value and $q$ is the CNN outout value. This quantity is then used in the back-propogation phase of the training (explained below) to inform the network how it should adjust the weights.
 \subsubsection{Forward/Backward Propogation}
 Training the network involves two phases. The first phase, known as forward propagation, takes input and uses the neural network to compute the solution for that input. Forward propagation is used both for training the network and in the deployed network after it has been trained. This process is summarized in Figure \ref{forward}.
 \begin{figure}[H]
@@ -199,13 +204,13 @@ To converge on a solution, the neural network must update thousands of weights i
 \begin{equation}
 L(W) = \frac{1}{|D|} \sum_{i}^{|D|} f_W(x_i) + \lambda r(W),
 \end{equation}
-where $f_W(x_i)$ is the loss on data instance $x_i$, $|D|$ is the set of all input data instances, and $r(W)$ is a regularization term incorporating the coefficient $\lambda$. This average loss is then used to update the weights. There are many different schemes for updating the weights, the one we selected is known as \textit{Stochastic Gradient Descent} (SGD). It calculates the update value $V_{t+1}$ and the updated weights $W_{t+1}$ using from the previous iteration $t$ the recursion relations
+where $f_W(x_i)$ is the loss on data instance $x_i$, $|D|$ is the set of all input data instances, and $r(W)$ is a regularization term incorporating the coefficient $\lambda$. This average loss is then used to update the weights. There are many different schemes for updating the weights, the one we selected is known as \textit{Stochastic Gradient Descent} (SGD). It calculates the \textit{update value} $V_{t+1}$ and the updated weights $W_{t+1}$ using from the previous iteration $t$ the recursion relations
 \begin{align}
 V_{t+1} &= \mu V_t - \alpha_t \nabla L(W_t)
 \intertext{and}
 W_{t+1} &= W_t + V_{t+1},
 \end{align}
-where $V_t$ is the previous weight update, $W_t$ is the set previous weights, $\alpha_t$ is the learning rate, and $\mu$ is the momentum. \par As the learning rate starts to plateau, it is often helpful to reduce the learning rate to converge on the solution.
+where $V_t$ is the previous update value, $W_t$ is the set previous weights, $\alpha_t$ is the learning rate, and $\mu$ is the momentum. \par As the learning rate starts to plateau, it is often helpful to reduce the learning rate to converge on the solution.
 For our network we chose an \textit{inverse decay} paradigm which is defined by
 \begin{equation}
 \alpha_t = \alpha_0 (1 + \gamma t)^{-\beta}
@@ -222,14 +227,14 @@ All routines that were used to generate the datasets and validate the network we
 \subsection{Introduction}
 To help us learn how to use CNNs, we solved two simple cases of the MOSES inversion problem: 4x4 pixel input/output image with one pixel greater than zero, all other pixels zero and a 8x8 pixel input/output image with five pixels greater than zero. Using simple cases allowed us to build and debug the network without having to deal with large, complicated real datasets.
 \subsection{Dataset Preparation}
-The MOSES instrument observes the sun in spatial directions $x$ and $y$. This measurement is the projection of a spectral cube in $x$, $y$, and $\lambda$. In the MOSES coordinate system $x$ is the dispersion direction. Therefore, (if we neglect the point-spread function,) we may ignore the $y$ component of the images without loss of generality. \par For this test we randomly construct a slice of the spectral cube with dimensions $x$ and $\lambda$. This is the truth image, and the output of the neural network should strive to create this output. 
+The MOSES instrument observes the sun in spatial directions $x$ and $y$. This measurement is the projection of a spectral cube in $x$, $y$, and $\lambda$. In the MOSES coordinate system $x$ is the dispersion direction. Therefore, if we neglect the point-spread function, we may ignore the $y$ component of the images without loss of generality. \par For this test we randomly construct a slice of the spectral cube with dimensions $x$ and $\lambda$. This is the truth image, and the output of the neural network should strive to create this output. 
 \begin{figure}[H]  
 	\centering
 	 \includegraphics[width=0.75\linewidth]{images/mIn}
 	 \caption{An example of a 4x4 pixel truth image. For this image and all following images, the vertical axis is $\lambda$ and the horizontal axis is $x$.}
 	 \label{mIn}
 \end{figure}
-From the truth image, we simulate the measurements captured by the instrument using the MOSES forward model. The forward model works by summing along each spectral direction (as described in Figure \ref{inversion})for the $m=0$, $1$, and $-1$ spectral orders. Since the $y$ dimension has been ignored, we are left with a graph, described in Figure \ref{m1-1}
+From the truth image, we simulate the measurements captured by the instrument using the MOSES forward model. The forward model works by summing along each spectral direction (as described in Figure \ref{inversion}) for the $m=0$, $1$, and $-1$ spectral orders. Since the $y$ dimension has been ignored, we are left with a graph, described in Figure \ref{m1-1}
  
  \begin{figure*}
      \centering
@@ -257,14 +262,14 @@ From the truth image, we simulate the measurements captured by the instrument us
 	\label{mOut}
 \end{figure}
 
-We can speed up the training time of the neural network by providing it some information about how the MOSES forward model works. To do this, we transform the graphs from the three orders back into an image by backprojecting along each spectral direction. The result is essentially an image that contains the maximum possible pixel value at every location in the spectral slice. For our purposes we will store the projections from each order on separate color channels (RGB). We will call this image the "input" image, and it will be the image that is fed into the neural network. An example of this image is given in Figure \ref{mOut}.
+We can speed up the training time of the neural network by providing it some information about how the MOSES forward model works. To do this, we transform the graphs from the three orders back into an image by back-projecting along each spectral direction. The result is essentially an image that contains the maximum possible pixel value at every location in the spectral slice. For our purposes we will store the projections from each order on separate color channels (RGB). We will call this image the \textit{input} image, as it is fed into the neural network. An example of this image is given in Figure \ref{mOut}.
 \subsection{Results}
 \subsubsection{One Active Pixel}
 The learning and input parameters of the one active pixel network are summarized in Table \ref{4x4tab}. Unfortunately the image depth is not very large, it is a result of creating a simple database of bitmap images for the CNN's input and truth dataset. \par The topography of our first neural network was based off of Google's LeNET image classification neural network, described in Figure \ref{4x4net}. It consists of one convolutional layer, one max pooling layer, and three inner product layers with ReLU layers in between. \par This network performed very well, according to the loss. We can see visually in Table \ref{4x4tab} that the output image is very close to the truth image. Since the training dataset (10,000) is larger than the number of possible images $4 \times 4 \times 256 = 4096$, it likely that the neural network simply memorized the training dataset.
 
 \subsubsection{Five Active Pixels}
 
-The input parameters for the five active pixel case are cataloged in the second column of Table \ref{4x4tab}.  They are very similar to the case above, with the exception of the base learning rate $\alpha_0$ which was reduced to account for the longer training time. \par The five active pixel case is a much harder problem, than the one pixel case, therefore the solutions posed by the neural network aren't perfect matches to truth. However in looking at the results, displayed in Table \ref{8x8im}, we can see that the many of the brightest pixels in the output and truth images match. \par This behavior is encouraging since this problem is potentially harder than the actual MOSES inversion problem. This is because the data is arranged randomly in space, and there are no solar features to be identified by the network. It is troubling that the images produced by the network aren't always solutions to the MOSES inversion problem. Perhaps the network could be constrained better to ensure all output is a valid solution to the inversion problem.
+The input parameters for the five-active-pixel case are cataloged in the second column of Table \ref{4x4tab}.  They are very similar to the case above, with the exception of the base learning rate $\alpha_0$ which was reduced to account for the longer training time. \par The five-active-pixel case is a much harder problem than the one-pixel case, therefore the solutions posed by the neural network aren't perfect matches to truth. However in looking at the results displayed in Table \ref{8x8im} we can see that the many of the brightest pixels in the output and truth images match. \par This behavior is encouraging since this problem is potentially harder than the actual MOSES inversion problem. This is because the data is arranged randomly in space, and there are no solar features to be identified by the network. It is troubling that the images produced by the network aren't always solutions to the MOSES inversion problem. Perhaps the network could be better constrained to ensure all output is a valid solution to the inversion problem.
 
 \begin{table*}
 \centering
@@ -343,10 +348,9 @@ Iteration & Input & Output & Truth & Difference \\ \hline
 \label{8x8im}
 \end{table*}
 
-\section{Training CNNs Using IRIS Data}
 \section{Conclusion}
 
-
+We have showed that a convolutional neural network may be a viable option for MOSES data inversion. 8 by 8 pixel able to be reasonably inverted by the neural network. \par Possible improvements include: enforcing neural network output to make the output a solution to the inversion problem, modifying the hyperparameters of the network, and a better database for managing larger image sets. \par Next we hope to apply convolutional neural networks to the IRIS dataset. This will allow us to analyze the performance on solar data, and allow us to perform inversions on the MOSES dataset.
 
 
 
@@ -354,6 +358,7 @@ Iteration & Input & Output & Truth & Difference \\ \hline
 
 \end{multicols}
 
+	%\bibliographystyle{apj}
 	\bibliographystyle{unsrt}
 	\bibliography{sources}
 \end{document}
